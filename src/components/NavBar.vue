@@ -30,6 +30,18 @@ import { useRouter } from 'vue-router';
         padding: 2rem 5rem;
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        .router-link{
+            a{
+                padding: 0 5px;
+                text-decoration: none;
+                color: inherit;
+                &:hover{
+                    font-weight: bolder;
+                    color: tomato;
+                }
+            }
+        }
         ul{
             display: flex;
             gap: 3rem;

@@ -92,6 +92,12 @@ import { useRouter } from 'vue-router';
             border: 1px solid #222;
         }
         .cart-list{
+            h2{
+                padding: 10px 0;
+            }
+            h4{
+                    font-weight: lighter;
+            }
             ul{
                 li{
                     padding: 1rem;
