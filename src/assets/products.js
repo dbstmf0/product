@@ -10,6 +10,7 @@ export const products = [
     {id:9, name:'콜라', price:3000, image:'./images/cola-img.jpg',category:'Drink'},
     {id:10, name:'콜라', price:3000, image:'./images/cola-img.jpg',category:'Drink'},
     {id:11, name:'감자튀김', price:5000, image:'./images/frenchfries-img.jpg',category:'Set'},
-    {id:12, name:'밀크쉐이크', price:4000, image:'./images/milkshake-img.png',category:'Dessert'}
+    {id:12, name:'밀크쉐이크', price:4000, image:'./images/milkshake-img.png',category:'Dessert'},
+    {id:13, name:'밀크쉐이크', price:4000, image:'./images/milkshake-img.png',category:'Dessert'}
 ];
 export const categories = ['All','Best','New','Set','Drink','Dessert'];
