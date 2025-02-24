@@ -33,7 +33,7 @@ import { useRouter } from 'vue-router';
         align-items: center;
         .router-link{
             a{
-                padding: 0 5px;
+                padding: 0 30px;
                 text-decoration: none;
                 color: inherit;
                 &:hover{
@@ -43,6 +43,7 @@ import { useRouter } from 'vue-router';
             }
         }
         ul{
+            padding: 0 10px;
             display: flex;
             gap: 3rem;
             li{

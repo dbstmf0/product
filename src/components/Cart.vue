@@ -84,7 +84,7 @@ import { useRouter } from 'vue-router';
     .cart{
         padding: 2rem 5rem;
         display: flex;
-        gap: 1rem;
+        gap: 5rem;
         div{
             padding: 1rem;
             flex: 1;
@@ -116,6 +116,14 @@ import { useRouter } from 'vue-router';
             .total{
                 padding: 1rem;
                 border: none;
+                p{
+                    padding: 10px 0;
+                }
+                button{
+                    width: 100px;
+                    padding: 3px 0;
+                    outline: none;
+                }
             }
         }
     }

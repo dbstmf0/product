@@ -34,6 +34,13 @@
             padding: 3rem 5rem;
             background-color: #fff;
             border-radius: 5px;
+            p{
+                padding: 10px 0;
+            }
+            button{
+                width: 100px;
+                outline: none;
+            }
         }
     }
 </style>
